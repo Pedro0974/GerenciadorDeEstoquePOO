@@ -3,5 +3,5 @@ Trabalho desenvolvido para disciplina de Programação Orientada a Objetos utili
 
 # Colaboradores do Projeto
   * [Pedro Lucas Lopes de Oliveira](github.com/Pedro0974)
-  * Maycon Pereira Soares
-  * Victor Ribeiro Amorim
+  * [Maycon Pereira Soares](https://github.com/MayconPS)
+  * [Victor Ribeiro Amorim](https://github.com/uVictorA)
