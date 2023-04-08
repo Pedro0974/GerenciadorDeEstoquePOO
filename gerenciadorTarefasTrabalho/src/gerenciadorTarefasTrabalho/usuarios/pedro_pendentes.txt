@@ -1,0 +1,5 @@
+Título: enviar trabalho poo
+Descrição: adicionar trabalho ao repositorio no github e enviar link pro flavio
+Data de início: 2023-04-07
+Status: pendente
+
