@@ -15,6 +15,7 @@ public class Main {
         String senha = scanner.nextLine();
 
         Usuario usuario = new Usuario(nome, senha);
+        // Mude o caminho na hora de testar
         usuario.salvar("C:\\\\Users\\\\pedro\\\\eclipse-workspace\\\\gerenciadorTarefasTrabalho\\\\src\\\\gerenciadorTarefasTrabalho\\\\usuarios");
 
         ListaTarefas listaTarefas = new ListaTarefas(usuario);
