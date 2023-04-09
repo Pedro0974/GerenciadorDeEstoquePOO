@@ -35,7 +35,7 @@ public class ListaTarefas {
 	public void salvarTarefas() {
 		try {
 			// Cria arquivo para tarefas pendentes
-			FileWriter writerPendentes = new FileWriter("C:\\Users\\pedro\\eclipse-workspace\\gerenciadorTarefasTrabalho\\src\\gerenciadorTarefasTrabalho\\usuarios\\" + this.usuario.getNome() + "_pendentes.txt");
+			FileWriter writerPendentes = new FileWriter(this.usuario.getNome() + "_pendentes.txt");
 
 			for (Tarefa tarefa : this.tarefasPendentes) {
 				writerPendentes.write("Título: " + tarefa.getTitulo() + "\n");
@@ -48,7 +48,7 @@ public class ListaTarefas {
 			writerPendentes.close();
 
 			// Cria arquivo para tarefas concluídas
-			FileWriter writerConcluidas = new FileWriter("C:\\Users\\pedro\\eclipse-workspace\\gerenciadorTarefasTrabalho\\src\\gerenciadorTarefasTrabalho\\usuarios\\" + this.usuario.getNome() + "_concluidas.txt");
+			FileWriter writerConcluidas = new FileWriter(this.usuario.getNome() + "_concluidas.txt");
 
 			for (Tarefa tarefa : this.tarefasConcluidas) {
 				writerConcluidas.write("Título: " + tarefa.getTitulo() + "\n");
@@ -65,6 +65,7 @@ public class ListaTarefas {
 			e.printStackTrace();
 		}
 	}
+	
 
 
 	public void exibirTarefasPendentes() {
