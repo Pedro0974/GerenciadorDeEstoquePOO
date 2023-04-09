@@ -29,3 +29,6 @@ Trabalho desenvolvido para disciplina de Programação Orientada a Objetos utili
     
   * Sair
     * Ultima opção para o usuario é sair do sistema.
+
+# Observação
+ É preciso alterar o caminho na chamada do metodo salvar na classe "Main" para o caminho de seu desktop
